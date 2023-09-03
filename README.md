@@ -1,6 +1,7 @@
 # 20IT928 PRIEE C6
 
-### Project Title: Fertilizer Recommendation System for Disease Prediction
+### Project Title: 
+Fertilizer Recommendation System for Disease Prediction
 
 ### Project Domain: AI
 
