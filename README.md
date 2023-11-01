@@ -27,3 +27,12 @@ Hey All👋 As the team leader of our Fertilizer Prediction Project🌿, I am ex
 * To implement precision agriculture (A modern farming technique that uses research data of soil characteristics, soil types, crop yield data collection and suggests the farmers the right crop based on their site specific parameters to reduce the wrong choice on a crop and increase in productivity). 
 * To recommend fertilizer on the basis of N, P, K values and crop.
 * To recognize the pest and recommend particular pesticide available in India as per ISO standards.
+
+## How to run on your local host?
+# Prerequisite: Download all files from GDrive Link
+
+  1.Download PyCharm
+  2.Create new environment using command --> conda create -n env_name python==3.7.0
+  3.Activate environment using command --> conda activate env_name
+  4.Install requirements by typing (cd ProjectFolder) --> pip install -r requirements.txt
+  5.Now run app.py by writing command --> python app.py
