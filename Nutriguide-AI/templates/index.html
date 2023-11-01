@@ -1,0 +1,128 @@
+{% extends "layout.html" %}
+
+{% block nav %}
+<li><a href="index.html" class="active">Home</a></li>
+<li><a href="CropRecommendation.html">Crop</a></li>
+<li><a href="FertilizerRecommendation.html">Fertilizer</a></li>
+<li><a href="PesticideRecommendation.html">Pesticide</a></li>
+{% endblock %}
+
+{% block body %}
+<section class="tm-welcome-section">
+    <div class="container tm-position-relative">
+      <div class="row tm-welcome-content">
+        <h2 class="white-text tm-handwriting-font tm-welcome-header">
+          &nbsp;Welcome To&nbsp;&nbsp;</h2>
+        <h2 class="gold-text tm-welcome-header-2">NUTRIGUIDE-AI</h2>
+        <br><br><br>
+      </div>
+      <img src="{{ url_for('static', filename='img/table-set.jpg') }}" alt="Table Set" class="tm-table-set img-responsive" width="90%">
+    </div>
+  </section>
+  <div class="tm-main-section light-gray-bg">
+    <div class="container" id="main">
+      <section class="tm-section tm-section-margin-bottom-0 row">
+        <div class="col-lg-12 tm-section-header-container">
+          <h2 class="tm-section-header gold-text tm-handwriting-font">
+            Our Services</h2>
+          <div class="tm-hr-container">
+            <hr class="tm-hr">
+          </div>
+        </div>
+        <div class="col-lg-12 tm-popular-items-container">
+          <div class="tm-popular-item">
+            <img src="{{ url_for('static', filename='img/popular-2.jpg') }}" alt="Popular" class="tm-popular-item-img" width="286px" height="166px">
+            <div class="tm-popular-item-description">
+              <h3 class="tm-handwriting-font tm-popular-item-title"><span
+                  class="tm-handwriting-font bigger-first-letter">C</span>rop Recommendation</h3>
+              <hr class="tm-popular-item-hr">
+              <p>Which crop to grow, that is ideally suited to conditions?
+                Make an informed decision before starting the cultivation of crops.</p>
+              <div class="order-now-container">
+                <a href="CropRecommendation.html" class="order-now-link tm-handwriting-font">Proceed Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="tm-popular-item">
+            <img src="{{ url_for('static', filename='img/popular-3.jpg') }}" alt="Popular" class="tm-popular-item-img" width="286px" height="166px">
+            <div class="tm-popular-item-description">
+              <h3 class="tm-handwriting-font tm-popular-item-title"><span
+                  class="tm-handwriting-font bigger-first-letter">F</span>ertilizer Recommendation</h3>
+              <hr class="tm-popular-item-hr">
+              <p>Which fertilizer to choose for the cultivated soil and prescribed crop for optimum production?
+              Provide your crops, the essential nutrients.</p>
+              <div class="order-now-container">
+                <a href="FertilizerRecommendation.html" class="order-now-link tm-handwriting-font">Proceed Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="tm-popular-item">
+            <img src="{{ url_for('static', filename='img/popular-1.jpg') }}" alt="Popular" class="tm-popular-item-img" width="286px" height="166px">
+            <div class="tm-popular-item-description">
+              <h3 class="tm-handwriting-font tm-popular-item-title"><span
+                  class="tm-handwriting-font bigger-first-letter">P</span>esticide Recommendation</h3>
+              <hr class="tm-popular-item-hr">
+              <p>Pests are a big threat.
+                Use NUTRIGUIDE-AI to know which pesticide to use to control pests before they cause potential damage to your
+                crop?</p>
+              <div class="order-now-container">
+                <a href="PesticideRecommendation.html" class="order-now-link tm-handwriting-font">Proceed Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+
+<footer>
+    <div class="tm-black-bg">
+      <div class="container">
+        <div class="row margin-bottom-60">
+          <nav class="col-lg-3 col-md-3 tm-footer-nav tm-footer-div">
+            <h3 class="tm-footer-div-title">Our Team</h3>
+            <ul>
+              <li>🔹 Vetrivel M</li>
+              <li>🔹Yegneshwaran B</li>
+              <li>🔹Sathyamoorthy S</li>
+              <li>🔹Hemanth Krishna T</li>
+              <li>🔹Udhayan N</li>
+            </ul>
+          </nav>
+          <div class="col-lg-5 col-md-5 tm-footer-div">
+            <h3 class="tm-footer-div-title">Few words for our Indian Farmers</h3>
+            <p class="margin-top-15" align="justify">Indian farmers play an important role in the country's economy; Agriculture is an important source of income for a large part of the population.</p>
+
+             <p class="margin-top-15" align="justify"> India's agriculture is diverse as farmers resort to various farming and agricultural practices. Modern agricultural technologies adapt to different regional and local conditions.</p>
+
+              <p class="margin-top-15" align="justify">Indian farmers often face many challenges such as unpredictable weather conditions, water scarcity, lack of modern equipment, and economic uncertainty, affecting their productivity and income.</p>
+
+              <p class="margin-top-15" align="justify">Indian farmers play an important role in ensuring the food security of the country by contributing to the food security of the country by producing various crops such as rice, wheat, pulses, fruits, and vegetables.</p>
+
+              
+          </div>
+          <div class="col-lg-4 col-md-4 tm-footer-div">
+            <h3 class="tm-footer-div-title">Connect With Us</h3>
+           
+            Vetrivel M &nbsp;
+              <a href="https://www.linkedin.com/in/vetrivel-m-667379247/" class="tm-social-icon"><i class="fa fa-linkedin"></i></a>
+              <a href="https://twitter.com/Vetrivel_msvm07" class="tm-social-icon"><i class="fa fa-twitter"></i></a>
+              <a href="https://github.com/Vetrivel07" class="tm-social-icon"><i class="fa fa-github"></i></a>
+              <a href="mailto:vetrim2003@gmail.com" class="tm-social-icon"><i class="fa fa-envelope"></i></a>
+              
+            
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="container">
+        <div class="row tm-copyright">
+          <p class="col-lg-12 small copyright-text text-center">Copyright &copy; 2023 Vetrivel M & Team </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+{% endblock %}
