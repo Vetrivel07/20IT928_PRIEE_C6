@@ -36,3 +36,5 @@ Hey All👋 As the team leader of our Fertilizer Prediction Project🌿, I am ex
 &nbsp;&nbsp;&nbsp; 3.Activate environment using command --> conda activate env_name<br>
 &nbsp;&nbsp;&nbsp; 4.Install requirements by typing (cd ProjectFolder) --> pip install -r requirements.txt<br>
 &nbsp;&nbsp;&nbsp; 5.Now run app.py by writing command --> python app.py<br>
+
+🔖PEST DATASET: https://www.kaggle.com/simranvolunesia/pest-dataset
