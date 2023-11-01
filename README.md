@@ -31,8 +31,8 @@ Hey All👋 As the team leader of our Fertilizer Prediction Project🌿, I am ex
 ## How to run on your local host?
 ### Prerequisite: Download all files from GDrive Link
 
-&nbsp;&nbsp; 1.Download PyCharm<br>
-&nbsp;&nbsp; 2.Create new environment using command --> conda create -n env_name python==3.7.0<br>
-&nbsp;&nbsp; 3.Activate environment using command --> conda activate env_name<br>
-&nbsp;&nbsp; 4.Install requirements by typing (cd ProjectFolder) --> pip install -r requirements.txt<br>
-&nbsp;&nbsp; 5.Now run app.py by writing command --> python app.py<br>
+&nbsp;&nbsp;&nbsp; 1.Download PyCharm<br>
+&nbsp;&nbsp;&nbsp; 2.Create new environment using command --> conda create -n env_name python==3.7.0<br>
+&nbsp;&nbsp;&nbsp; 3.Activate environment using command --> conda activate env_name<br>
+&nbsp;&nbsp;&nbsp; 4.Install requirements by typing (cd ProjectFolder) --> pip install -r requirements.txt<br>
+&nbsp;&nbsp;&nbsp; 5.Now run app.py by writing command --> python app.py<br>
