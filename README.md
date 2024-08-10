@@ -4,7 +4,7 @@ Hey All👋 As the team leader of our Fertilizer Prediction Project🌿, I am ex
 
 #### Project Title: Fertilizer Recommendation System for Disease Prediction
 
-👉 I developed a Fertilizer Recommendation System, which I named <b> NutriGuide-AI </b>.
+👉 Our team developed a **Fertilizer Recommendation System**, which we named **NutriGuide-AI**
 
 #### Project Domain: AI
 
